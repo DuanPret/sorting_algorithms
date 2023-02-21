@@ -24,7 +24,7 @@ void selection_sort(int *array, size_t size)
 				flag += 1;
 			}
 		}
-		swap = array [i];
+		swap = array[i];
 		array[i] = array[tmp];
 		array[tmp] = swap;
 		if (flag != 0)
